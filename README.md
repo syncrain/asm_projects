@@ -15,6 +15,24 @@ This project is a basic shell implemented in assembly language. It demonstrates 
 ## TO_DO's
 
 - **Input Parsing**: Parses user input to extract commands and arguments.
+  
+- Here are some additional commands that can be implemented:
+
+1. **List Directory Contents (`ls`)**:
+   - **Description**: Lists the contents of the current directory.
+   - **Implementation**: Use system calls to read directory contents and print them to the console.
+
+2. **Print Working Directory (`pwd`)**:
+   - **Description**: Prints the current working directory.
+   - **Implementation**: Use system calls to retrieve and print the current directory path.
+
+3. **Change Directory (`cd`)**:
+   - **Description**: Changes the current working directory.
+   - **Implementation**: Use system calls to change the directory based on user input.
+
+4. **Clear Screen (`clear`)**:
+   - **Description**: Clears the terminal screen.
+   - **Implementation**: Send the appropriate terminal escape codes to clear the screen.
 
 ## NOTE
 
